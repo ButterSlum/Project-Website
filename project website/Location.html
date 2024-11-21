@@ -6,6 +6,51 @@
     <title>Location</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <style>
+
+        .location-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .location-info{
+            font-size: 18px;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .location-info ul{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            list-style: none;
+        }
+        .location-info ul li a{
+            color: black;
+            text-decoration: none;
+        }
+
+        .location-info img{
+            width: 480px;
+            height: 360px;
+            border: 1px solid black;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .location-map{
+            align-self: center;
+            padding-bottom: 20px;
+
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +72,25 @@
         </div>
     </header>
 
-    <main>  </main>
+    <main> 
+        
+        <div class="location-container">
+            <div class="location-info">
+                <ul>
+                    <li><h3>Our Location</h3></li>
+                    <li>3 Bawshar St, Muscat 133</li>
+                    <li>Open Sunday to Thursday 8 AM - 4 PM</li>
+                    <li>Phone: <a href="tel:+96824583516">24 583516</a> </li>
+                </ul>
+                <img src="https://lh5.googleusercontent.com/p/AF1QipOuIT99Kk_wwDyoxK_Sv0IHC5JN3gymPaCd7RZM=w408-h257-k-no" alt="building">
+            </div>
+            <hr>
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4143832955792!2d58.398883774929594!3d23.55355637880518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91fe4273dc370b%3A0xcce2af9dac26c61b!2sModern%20College%20of%20Business%20and%20Science!5e0!3m2!1sen!2som!4v1732222063587!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    
+    </main>
 
     <footer>
         <div class="footer-container">

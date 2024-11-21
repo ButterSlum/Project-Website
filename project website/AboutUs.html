@@ -6,6 +6,41 @@
     <title>About us</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <style>
+        .About-Us{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #subheader1{
+            padding: 10px 20px 10px 20px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+       fieldset{
+        border: 2px solid #333;
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       legend{
+        font-size: 22px;
+        font-weight: bold;
+        padding-right: 5px;
+        padding-left: 5px;
+       }
+       .values fieldset ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       }
+       .fieldset-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +62,30 @@
         </div>
     </header>
 
-    <main>  </main>
+    <main> 
+        <div class="About-Us">
+        <h3 id="subheader1">About us</h3>
+        <div class="fieldset-container">
+        <fieldset class="mission">
+            <legend>Mission</legend>
+            <p>NightFit is a gym that aims to provide an engaging, modern gym experience. Located in Muscat, Oman. NightFit offers a variety of gym memberships, programs, and classes to help and guide members through their fitness journey.</p>
+        </fieldset>
+        <fieldset class="vision">
+            <legend>Vision</legend>
+            <p>At NightFit, our vision is to redefine fitness by creating a supportive, innovative, and dynamic environment where individuals can embark on a transformative journey toward health and wellness. Located in Muscat, Oman, we aim to be the go-to fitness destination for people of all levels, offering modern facilities, expert guidance, and a thriving community. Our vision is to empower our members to lead healthier lives, pushing boundaries and achieving their full potential—one workout at a time.</p>
+        </fieldset>
+        <fieldset class="values">
+            <legend>Core Values</legend>
+            <ul>
+                <li>Empowerment: We believe in empowering our members to take control of their health and fitness journey, providing them with the tools, support, and motivation to succeed.</li>
+                <li>Community: Building a strong, supportive community is at the heart of NightFit. We encourage collaboration, camaraderie, and connections among members to foster a positive environment where everyone feels welcome and motivated.</li>
+                <li>Integrity: We uphold the highest standards of honesty, professionalism, and respect in everything we do, ensuring that our members feel valued and trusted.</li>
+            </ul>   
+        </fieldset>
+        </div>
+        </div>
+
+    </main>
 
     <footer>
         <div class="footer-container">

@@ -4,6 +4,9 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+  background-color: #DCDCDC;
+}
 
 
 .header-container {

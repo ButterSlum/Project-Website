@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <style>
+        .contact-container{
+            display: flex;
+            margin: 20px 20px;
+            padding: 10px 10px;
+            color: black;
+            justify-content: center;
+            font-size: 1.3rem;
+        }
+        .contact-container form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .name-field input{
+            width: 80px;
+            box-sizing: border-box;
+        }
+        #contact-header{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -25,7 +48,25 @@
         </div>
     </header>
 
-    <main>  </main>
+    <main>
+        <div class="contact-container">
+            <form>
+                <h1 id="contact-header">Contact Us</h1>
+                <div class="name-field">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname">
+                </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <label for="number">Phone number:</label>
+                <input type="tel" id="number">
+                <label>Message:</label>
+                <textarea></textarea> 
+            </form>
+        </div>
+    </main>
 
     <footer>
         <div class="footer-container">

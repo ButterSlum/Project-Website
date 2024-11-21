@@ -6,6 +6,74 @@
     <title>Memberships</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <style>
+
+        .top-section{
+            width: 100%;
+            background-color: #101010;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .top-section img{
+            width: 643px;
+            height: 360px;
+            border: 1px solid #101010;
+        }
+
+        .membership-container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            padding: 30px;
+        }
+        .memberships-grid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        #subtext{
+            vertical-align: sub;
+        }
+
+        .monthly-grid{
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 20px 15px 20px 15px;
+            border-radius: 20px;
+            background-color: #262626;
+            color: #fff;
+            border: 1px solid black;
+            gap: 10px;
+        }
+        .annual-grid{
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 20px 15px 20px 15px;
+            border-radius: 20px;
+            background-color: silver;
+            color: #fff;
+            border: 1px solid black;
+            gap: 10px;
+        }
+        .learn-more{
+            display: flex;
+            gap: 120px;
+        }
+        #joinButton{
+            border-radius: 5px;
+            padding: 5px 5px 5px 5px;
+            border: 0.5px solid black;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +95,33 @@
         </div>
     </header>
 
-    <main>  </main>
+    <main> 
+        
+        <div class="top-section">
+            <img src="https://t4.ftcdn.net/jpg/06/51/49/91/360_F_651499128_02uzpyQcBI1ypjF9zNaVxgWvf6Jj4DIU.jpg">
+        </div>
+
+        <div class="membership-container">
+            <h2>Memberships</h2>
+            <p>We offer both monthly plans and annual plans with unlimited access to the facilities!</p>
+            <div class="memberships-grid">
+                <div class="monthly-grid">
+                    <div><p>Monthly Membership</p>
+                    <p>29.9$<span id="subtext">/mo*</span></p></div>
+                    <p>Access to all gym facilities and benefits</p>
+                    <div class="learn-more"><a href="#"><p>Learn more!</p></a> <button id="joinButton">Join now!</button></div>
+                </div>
+                <div class="annual-grid">
+                    <div><p>Annual Membership</p>
+                    <p>299.9$<span id="subtext">/yr*</span></p></div>
+                    <p>Access to all gym facilities and benefits</p>
+                    <div class="learn-more"><a href="#"><p>Learn more!</p></a> <button id="joinButton">Join now!</button></div>
+                </div>
+            </div>
+
+        </div>
+    
+    </main>
 
     <footer>
         <div class="footer-container">

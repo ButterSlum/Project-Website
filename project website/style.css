@@ -4,17 +4,10 @@
     list-style: none;
     text-decoration: none;
 }
-header{
-    width: 100%;
-    background-color: #101010;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 .header-container {
+  background-color: #101010;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,23 +48,17 @@ header{
     transition: 0.4s ease;
   }
 
-  footer{
-    width: 100%;
-    background-color: #101010;
-    color: #fff;
-    padding: 30px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-  }
-
+  
   .footer-container{
+    background-color: #101010;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    gap: 20px;
   }
 
   .social-media{
@@ -104,7 +91,7 @@ header{
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease;
 }
 
 .footer-nav ul li a:hover{
